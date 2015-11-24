@@ -1,0 +1,23 @@
+# Site settings
+title: hub33k's website
+name: hub33k's website
+lang: en
+email: hub33k@yahoo.com
+description: description goes here
+keywords: keywords goes here
+baseurl: ""
+url: "http://hub33k.github.io/"
+twitter_username: hub33k
+github_username:  hub33k
+
+# Build settings
+markdown: kramdown
+
+# Sass config
+sass:
+    sass_dir: assets/styles
+    style: compressed
+
+# Gems
+gems:
+ - jekyll-coffeescript

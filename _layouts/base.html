@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+
+<!--
+Magic. Do not touch.
+If this comment is removed the website will blow up.
+-->
+
+<html class="no-js" lang="{{ site.lang }}">
+
+  {% include head.html %}
+
+  <body>
+    <!--[if lt IE 8]><p class=chromeframe>Your browser is <em>ancient!</em> <a href="//browsehappy.com/">Upgrade to a different browser</a> or <a href="//www.google.pl/chrome/browser/desktop">install Google Chrome Frame</a> to experience this site.</p>< ![endif]-->
+    {% include header.html %}
+
+    <div class="page-content">
+      <div class="wrapper">
+        {{ content }}
+      </div>
+    </div>
+
+    {% include footer.html %}
+    {% include scripts.html %}
+  </body>
+</html>
